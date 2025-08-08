@@ -15,3 +15,20 @@ A simple command-line task manager built with Go. You can add, list, complete, a
 ### 1. Build the CLI
 ```bash
 go build
+
+2. Run commands
+➕ Add a Task
+
+./myapp add "Buy groceries"
+
+📋 List Tasks
+
+./myapp list
+
+✅ Mark Task as Done
+
+./myapp done 1
+
+❌ Delete a Task
+
+./myapp delete 1
